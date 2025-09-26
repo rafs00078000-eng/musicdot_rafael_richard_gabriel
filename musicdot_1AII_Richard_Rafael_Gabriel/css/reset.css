@@ -52,7 +52,7 @@ body {
 	color: #2e4255;
 }
 
-{
-	 color: inherit;
+a {
+	color: inherit;
 	text-decoration: inherit;
 	}
