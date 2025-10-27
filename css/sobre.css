@@ -56,27 +56,27 @@ figure img {
     display: inline;
 }
 
-.contato_secao {
+.contato__secao {
     display: inline-block;
     vertical-align: top;
     margin-left: 16px;
 }
 
-.cpontato_secao-telefone{
+.cpontato__secao--telefone{
     margin-left: 32px;
 }
 
-.contato_info{
+.contato__info{
     margin: 16px 0 24px;
     padding-left: 32px;
 }
 
-.contato_info-titulo,
-.contato_info-descricao {
+.contato__info-titulo,
+.contato__info-descricao {
     display: inline;
 }
 
-.contato_info-descricao {
+.contato__info-descricao {
     margin-left: 10px;
 }
 
@@ -86,18 +86,18 @@ figure img {
     font-size: 1.1rem
 }
 
-.rodape_logo{
+.rodape__logo{
     width: 6em;
 }
 
-.rodape_copyright{
+.rodape__copyright{
     display: inline;
     margin-left: 1em;
 }
 
 @media (max-width: 850px) {
 
-    .contato_secao {
+    .contato__secao {
         display: block;
         margin-left: 1em;
     }
@@ -113,12 +113,12 @@ figure img {
 
 @media (max-width: 446px) {
 
-    .contato_subtitulo {
+    .contato__subtitulo {
         display: block;
         margin-bottom: 0;
     }
 
-    .contato_info {
+    .contato__info {
         padding-left: 5px;
 
         font-size: .92em;
@@ -132,7 +132,7 @@ figure img {
 }
 
 @media (max-width: 342px) {
-    .contato_info-descricao {
+    .contato__info-descricao {
         display: block;
         margin-left: 1em;
     }
